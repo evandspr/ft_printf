@@ -22,7 +22,7 @@ $(NAME): $(OBJ)
 	ar rc $(NAME) $(OBJ)
 
 clean:
-	rm -f *.o
+	rm -f ./src/*.o
 fclean: clean
 	rm -f $(NAME)
 re: fclean all
